@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<title>Жлобин</title>
+		<!-- links -->
+		<link type="image/png" sizes="16x16" rel="icon" href="images/Web/icons8-favorite-windows-11-color-16.png">
+		<link type="image/png" sizes="32x32" rel="icon" href="images/Web/icons8-favorite-windows-11-color-32.png">
+		<link type="image/png" sizes="96x96" rel="icon" href="images/Web/icons8-favorite-windows-11-color-96.png">
+		<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<!-- scripts -->
+		<script src="https://kit.fontawesome.com/6fe63ae194.js"></script>
+		<script src="anime.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	</head>
+
+	<body>
+		<section id="page-container">
+			<!-- start-page -->
+			<section class="bg-zh">
+				<nav class="navbar">
+					<div class="container">
+						<div class="navbar__wrap">
+							 <img src="images/zhlad.png" alt="" class="logo">
+							<div class="forward"> <a class="buttton" href="#minh"><span>&#8594;</span>Главное<span>&#8592;</span></a>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<div class="popup" id="popup"></div>
+				<!-- greeting  -->
+				<section id="page-hero" @touchstart="touchstart" @touchend="touchend">
+					<div class="head-site-inner">
+						<h1 id="love" class="heading h-01">Я <i class="fas fa-heart"></i> жлобин</h1>
+						<section id="example" class="sub-header copy-02"> город, который я с гордостью называю родным домом </section>
+					</div>
+				</section>
+			</section>
+			<!-- about us -->
+			<section id="page-about" class="section">
+				<div class="site-inner">
+					<section id="most-info">
+						<h2 class="heading h-01" style="margin-top:0;">Наши дни</h2>
+						<div class="about-me-info">
+							<div>
+								<p class="copy-01">Жлобин – это небольшой уютный город, который я с гордостью называю своей малой родиной. Здесь я провёл большую часть своей жизни и каждый уголок этого места наполнен хорошими воспоминаниями и приятными моментами.</p>
+								<p class="copy-01">Жлобин богат историческим и культурным наследием. Здания, парки, улицы, малые архитектурные формы создают неповторимый колорит</p>
+							</div>
+						</div>
+					</section>
+					<!-- higlights -->
+					<div id="minh">
+						<h1 class="heading h-01 mmm">Гордость</h1>
+						<!-- КОЛОНКИ -->
+						<div class="columns">
+							<aside>
+								<h3 class="heading h-03"><a href="heroes.html" class="inherit">Герои времен ВОВ</a></h3>
+								<p class="copy-02">Герои времен Великой Отечественной войны - это люди, которые проявили невероятное мужество, самоотверженность в защите Родины.</p>
+							</aside>
+							<aside>
+								<h3 class="heading h-03"><a href="sport.html" class="inherit">Спортсмены</a></h3>
+								<p class="copy-02">Спортсмены - украшение нашего общества, представители силы и настойчивости. Мы гордимся их дисциплиной, решимостью и стремлением к победе.</p>
+							</aside>
+							<aside>
+								<h3 class="heading h-03"><a href="obelisk.html" class="inherit">Наша память</a></h3>
+								<p class="copy-02">Мы гордимся обелисками, как символами истории и культуры, которые являются великим достижением архитектуры и инженерии</p>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- geography zhlobin -->
+			<section id="geography">
+				<h1 class="heading h-01">география</h1>
+				<div class="site-inner">
+					<p class="copy-01">Площадь Жлобина составляет всего <strong>28 км²</strong>. <em>Расположен он в Гомельском Полесье, в 93 км от Гомеля, 215 км от Минска</em>. Есть пристань на реке <strong>Днепр</strong>. Крупный железнодорожный узел (направления на Минск, Могилёв, Гомель, Калинковичи), ограничен с севера автомагистралью М5.</p>
+				</div>
+				<!-- GOOGLE MAP too hard -->
+				<div class="map-container"> <button type="button" class="triggerd btn">Подробнее</button>
+					<div class="map-responsive"> <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38512.703944047316!2d29.9857523166866!3d52.89363107545828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d6b7ea7c91e833%3A0x4075b74458cc0a63!2z0JbQu9C-0LHQuNC9!5e0!3m2!1sru!2sby!4v1696533984274!5m2!1sru!2sby" width="2560" height="850" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+					</iframe> </div>
+				</div>
+			</section>
+			<!-- town-history -->
+			<section id="history">
+				<div class="site-inner">
+					<h1 class="heading h-01">Название города</h1>
+					<p class="copy-02">Название «Жлобин» следует расшифровывать исключительно с топографической точки зрения. Потому что оно древнее.
+
+						<br><br>На востоке Гомельщины,— большинство названий городов обозначают «возвышение, холм». Впрочем, так и должно было быть, если иметь ввиду, что здешние земли в свое время заселяли радимичи, представители такого общинного образования, у которого принято было селиться на высоких сухих местах.
+						
+						<br><br>Обратимся к «Словарю народных географических терминов» З.М. Мурзаева (1984). Географический термин «злобак, злобец» (от слова «лоб») обозначает «горка, возвышение». Согласные «з» и «ж» менялись. Таким образом, под названием Жлобин следует понимать "поселение на возвышении", а по отношению к нашему городу — «поселение на высоком берегу реки».</p>
+				</div>
+			</section>
+			<!-- footer -->
+			<section id="page-footer">
+				<div class="social-links">
+					<!-- Ссылка на ВК.  --><a href="https://vk.com/fof4n" target="_blank"><i class="fab fa-vk"></i></a>
+					<!-- Ссылка на Instagram. --><a href="https://www.instagram.com/iva_ivanyshka/" target="_blank"><i class="fab fa-instagram"></i></a> </div>
+				<div>
+					<p class="copy-02">© 2024. Все права защищены.</p>
+					<p class="copy-02">By <a href="https://t.me/FoFanise" target="_blank" class="myLink">Иван Еленский</a></p>
+				</div>
+			</section>
+		</section>
+		<!-- scripts -->
+		<script src="script.js"></script>
+	</body>
+
+</html>
